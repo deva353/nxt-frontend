@@ -1,0 +1,45 @@
+
+.student-navbar {
+  width: 100%;
+  min-height: 91px;
+  padding: 16px 5.2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #dfe3ee;
+}
+
+.student-brand {
+  color: #243b70;
+  font-size: 24px;
+  font-weight: 400;
+  flex-shrink: 0;
+}
+
+.student-nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+}
+
+.student-username {
+  color: #101010;
+  font-size: 18px;
+}
+
+.student-logout {
+  padding: 13px 21px;
+  border: none;
+  border-radius: 11px;
+  background: #283b70;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
